@@ -5,5 +5,5 @@ insert into page (id, url, usr_id) values (1, 'www.test1.com', 1);
 insert into page (id, url, usr_id) values (2, 'www.test2.com', 1); 
 insert into page (id, url, usr_id) values (3, 'www.test3.com', 2); 
 
-insert into link (id, url, name, page_id) values (1, 'www.test1.com', 'name1', 1);
-insert into link (id, url, name, page_id) values (2, 'www.test2.com', 'name2', 2); 
+insert into link (id, url, name, page_id) values (1, 'www.link1.com', 'name1 of the link', 1);
+insert into link (id, url, name, page_id) values (2, 'www.link2.com', 'name2 of the link', 2); 

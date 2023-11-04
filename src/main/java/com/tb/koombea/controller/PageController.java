@@ -30,8 +30,12 @@ public class PageController {
 		this.pageService = pageService;
 	}
 
-
-
+	
+	/**
+	 *  As a user, I should be able to see a list of all the pages that I have scrapped with the number of links that the scraper found.
+	 * @param userId
+	 * @return
+	 */
 	@GetMapping("/{userId}")
 	public Page<com.tb.koombea.model.Page> getUserPages(@PathVariable Long userId) {
 
@@ -43,6 +47,13 @@ public class PageController {
 
 	}
 	
+	
+	/**
+	 * As a user, I should be able to see the details of all the links of a particular page,
+	 *	that means the url of a link and the “name” of a link.
+	 * @param pageId
+	 * @return
+	 */
 	@GetMapping("/links/{pageId}")
 	public List<Link> getLinksForPage(@PathVariable Long pageId) {
 		return pageService.getLinksForPage(pageId);

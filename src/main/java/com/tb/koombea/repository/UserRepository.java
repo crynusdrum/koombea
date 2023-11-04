@@ -8,7 +8,7 @@ import com.tb.koombea.model.User;
 @Repository
 public interface UserRepository extends JpaRepository<User, Long>{
 	
-	//List<User> findByEmail(String email);
-	User findByEmail(String email);
+
+	User findByEmailAndPassword(String email, String password);
 
 }
