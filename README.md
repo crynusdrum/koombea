@@ -42,7 +42,7 @@ Prerequisites:
 - Swagger: http://localhost:8080/swagger-ui/index.html#/
 
 OBS:
- - There is no frontend
+ - There is no frontend.
  - It's not necessary to create anythhing because it is using a H2 memory configured with import file data.
    
 
