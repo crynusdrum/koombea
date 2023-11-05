@@ -42,6 +42,19 @@ Prerequisites:
 - Swagger: http://localhost:8080/swagger-ui/index.html#/
 
 
+  
+```bash
+# Github repository
+git clone https://github.com/crynusdrum/koombea.git
+
+# get into project folder
+cd koombea
+
+# run the project
+./mvnw spring-boot:run
+```
+
+
 ```
 
 # Autor
